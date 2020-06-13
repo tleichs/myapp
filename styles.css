@@ -1,0 +1,177 @@
+body {
+    font-family: "Montserrat";
+    max-width: inherit;
+}
+
+#title {
+    background-image: url("images/green.jpg");
+    background-position: center;
+    color: #fff;
+    background-size: cover;
+    padding-bottom: 15rem;
+}
+
+#titleblog {
+    background-color: rgb(2, 49, 8);
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+h1,
+h2 {
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat-Black";
+    font-size: 1.5rem;
+}
+
+
+/* navigation bar */
+
+.navbar {
+    padding: 0 0 0.5rem;
+    background-color: rgb(2, 49, 8);
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #84ff00;
+    padding-left: 20px;
+}
+
+.nav-item {
+    padding: 0 5px;
+}
+
+.btn {
+    margin: 5% 3% 5% 0%;
+}
+
+.nav-link {
+    font-size: 1, 3rem;
+    font-family: "Montserrat-light";
+    color: #84ff00;
+}
+
+.subtitle {
+    text-align: center;
+    padding-top: 10rem;
+}
+
+
+/* .title-img {
+    width: 50%;
+    transform: rotate(0);
+    margin-left: 20%;
+} */
+
+#features {
+    padding: 7% 15%;
+    position: relative;
+    text-align: center;
+}
+
+.featureBox {
+    text-align: center;
+    padding: 5%;
+}
+
+.icon {
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: blue;
+}
+
+.collapse {
+    padding-left: 10rem;
+}
+
+.container-fluid {
+    padding: 3% 5%;
+}
+
+.Youtube {
+    color: tomato;
+}
+
+.Book {
+    color: forestgreen;
+}
+
+.Amazon {
+    color: orange;
+}
+
+#testimonials {
+    text-align: center;
+    background-color: rgb(2, 49, 8);
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.card {
+    width: 90%;
+    height: 100%;
+}
+
+#cta {
+    text-align: center;
+    background-color: rgb(2, 49, 8);
+    color: white;
+    padding-top: 5rem;
+    font-family: "Montserrat-Black", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 120%;
+}
+
+#footer {
+    text-align: right;
+    padding-bottom: 0mm;
+    position: relative;
+    padding-right: 0mm;
+}
+
+.Facebook {
+    color: blue
+}
+
+.Linkedin {
+    color: rgb(34, 97, 139);
+}
+
+.Email {
+    color: rgb(3, 90, 10);
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        transform: rotate(0);
+        position: static;
+        margin-left: 0;
+    }
+}
+
+.blog {
+    background-color: rgb(2, 49, 8);
+    color: mintcream;
+    height: 300%;
+    ;
+}
